@@ -1,0 +1,52 @@
+/* https://cdn.pixabay.com/photo/2021/08/07/14/36/stripes-6528728_960_720.png */
+.login {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://cdn.pixabay.com/photo/2021/08/07/14/36/stripes-6528728_960_720.png");
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login > h1,
+.login > form,
+.login > .registerLink {
+  width: 300px;
+}
+.login > form .form-controle {
+  display: flex;
+  width: 100%;
+  margin: 15px 0;
+}
+.login > form .form-controle input,
+.login button {
+  width: 100%;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.login button {
+  background: teal;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.login button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.login button:active {
+  transform: scale(0.99);
+}
+.login .registerLink {
+  margin: 10px 0;
+}
+.login .registerLink a {
+  color: white;
+}

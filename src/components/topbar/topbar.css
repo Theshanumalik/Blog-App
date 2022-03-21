@@ -1,0 +1,81 @@
+nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid silver;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+}
+.leftSide,
+.rightSide {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftSideIcon {
+  font-size: 20px;
+  padding: 5px;
+}
+.leftSide a {
+  color: #444;
+}
+.centerSide {
+  flex: 6;
+}
+.centerSide ul {
+  display: flex;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  align-items: center;
+  height: 100%;
+}
+.centerSide ul li {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+.rightSideImg {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.searchIcon {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #444;
+}
+.rightSide ul {
+  display: flex;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+.rightSide ul li {
+  color: #333;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.rightSide button {
+  color: #333;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(241, 84, 56);
+  border: none;
+  outline: none;
+  margin: 0 5px;
+  color: white;
+  border-radius: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
